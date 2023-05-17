@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "welcome": "mocha test/api/exampleTest.js",
-    "test get": "mocha filename.js"
+    "test get": "mocha test/api/getTest.js",
+    "test post": "mocha test/api/postTest.js"
   },
   "repository": {
     "type": "git",
